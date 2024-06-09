@@ -1,0 +1,65 @@
+.Memoral {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+  height: 400px;
+  padding-top: 20px;
+}
+.left-m {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+.left-m > :nth-child(1) {
+  font-size: 25px;
+  width: 350px;
+  font-weight: 600;
+}
+.left-m button {
+  background-color: rgb(45, 153, 225);
+  color: white;
+  border: 0;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 25px;
+}
+.right-m {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.right-m > div img {
+  width: 30px;
+}
+.right-m > :nth-child(1) img {
+  background-color: violet;
+  padding: 5px;
+  border-radius: 10px;
+}
+.right-m > :nth-child(2) img {
+  background-color: orange;
+  padding: 5px;
+  border-radius: 10px;
+}
+.right-m > :nth-child(3) img {
+  background-color: skyblue;
+  padding: 5px;
+  border-radius: 10px;
+}
+.right-m > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  gap: 10px;
+  padding: 10px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-right: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 70px;
+}

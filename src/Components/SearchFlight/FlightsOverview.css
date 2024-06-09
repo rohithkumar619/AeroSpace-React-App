@@ -1,0 +1,64 @@
+.Card {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 100vh;
+  gap: 20px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: space-around;
+  height: 150px;
+}
+.info img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.info span {
+  font-weight: 600;
+  font-style: italic;
+}
+.info button {
+  background-color: rgb(45, 153, 225);
+  color: white;
+  border: 0;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.flight-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.flight-info button {
+  border-radius: 10px 20px;
+  transition: 0.3s;
+}
+.flight-info button:hover {
+  border-radius: 20px 10px;
+}
+.flight-info button:active {
+  transform: scale(0.9);
+}
+.no-flights {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-flights span {
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

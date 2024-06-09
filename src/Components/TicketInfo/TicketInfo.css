@@ -1,0 +1,319 @@
+.ticket-info {
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+}
+.left-t {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 10px;
+  top: 100px;
+}
+.right-t {
+  position: absolute;
+  width: 60%;
+  height: 100vh;
+  top: 10px;
+  right: 50px;
+}
+.fare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 25px;
+}
+.fare > :nth-child(1) {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 20px;
+  color: green;
+  font-weight: 600;
+  font-style: italic;
+  gap: 10px;
+}
+
+.fare > :nth-child(2) {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+}
+.fare > :nth-child(2) > :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.fare > :nth-child(2) > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: center;
+  gap: 10px;
+}
+.fare > :nth-child(2) > :nth-child(2) > :nth-child(2) {
+  color: green;
+  font-weight: 600;
+}
+.policy {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.policy > :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+.policy span {
+  font-weight: 600;
+  color: rgb(126, 122, 122);
+}
+.policy > :nth-child(1) span {
+  color: green;
+  font-weight: 600;
+}
+.policy > :nth-child(3) {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.policy > :nth-child(3) img {
+  width: 70px;
+}
+.ticket-data {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px black;
+  gap: 10px;
+}
+.ticket-data > :nth-child(1) {
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.ticket-data > :nth-child(2) {
+  display: flex;
+  gap: 10px;
+}
+.ticket-data > :nth-child(3) {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  gap: 20px;
+}
+.ticket-data > :nth-child(3) img {
+  width: 100px;
+}
+.info-t {
+  border-top: 1px solid rgb(181, 178, 178);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info-t > :nth-child(1) {
+  display: flex;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(181, 178, 178);
+  justify-content: space-between;
+}
+.info-t > :nth-child(1) > :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.info-t > :nth-child(1) > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.info-t > :nth-child(1) > :nth-child(3) {
+  display: flex;
+  flex-direction: column;
+}
+.info-t > :nth-child(2) {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.info-t > :nth-child(2) > :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.info-t > :nth-child(2) > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+.info-t > :nth-child(2) > :nth-child(3) {
+  display: flex;
+  flex-direction: column;
+}
+.seat-avail {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+.seat-avail > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.seat-avail > div span {
+  font-weight: 600;
+}
+.seat-avail > div img {
+  width: 25px;
+}
+.no-ticket-info {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  gap: 10px;
+  flex-direction: column;
+}
+.no-ticket-info button {
+  background-color: rgb(45, 153, 225);
+  color: white;
+  border: 0;
+  width: 120px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.traveller-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px black;
+  gap: 25px;
+}
+.traveller-details > div {
+  display: flex;
+  flex-direction: column;
+}
+.traveller-details > :nth-child(1) > div {
+  display: flex;
+  justify-content: space-between;
+}
+.traveller-details > :nth-child(2) span {
+  background-color: rgb(232, 194, 194);
+  padding: 2px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.traveller-details > :nth-child(3) {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.traveller-details > :nth-child(3) select {
+  width: 200px;
+}
+.traveller-details > :nth-child(3) input {
+  width: 200px;
+  outline: none;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 420px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  gap: 20px;
+  box-shadow: 1px 1px 5px black;
+}
+.contact-details input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 10px;
+  outline: none;
+}
+.contact-details > :nth-child(2) {
+  display: flex;
+  gap: 50px;
+}
+.contact-details > :nth-child(4) {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}
+.continue {
+  margin-top: 20px;
+  display: flex;
+  width: 58%;
+  height: 70px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 10px;
+  box-shadow: 1px 1px 5px black;
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  background-color: white;
+  z-index: 10;
+}
+.continue div {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+}
+.continue > div img {
+  width: 18px;
+}
+.continue button {
+  background-color: rgb(45, 153, 225);
+  color: white;
+  border: 0;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.continue button:hover {
+  border-radius: 10px 20px;
+}

@@ -1,0 +1,77 @@
+.support {
+  margin-top: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.Support {
+  display: flex;
+  width: 90%;
+}
+.left-support {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.left-support > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+.left-support > :nth-child(1) > :nth-child(1) {
+  background-color: violet;
+  padding: 5px;
+  border-radius: 10px;
+}
+.left-support > :nth-child(2) > :nth-child(1) {
+  background-color: orange;
+  padding: 5px;
+  border-radius: 10px;
+}
+.left-support > :nth-child(3) > :nth-child(1) {
+  background-color: skyblue;
+  padding: 5px;
+  border-radius: 10px;
+}
+.left-support > div > :nth-child(2) {
+  font-weight: 600;
+  font-size: 20px;
+}
+.left-support > div > :nth-child(3) {
+  font-weight: 200;
+  font-size: 14px;
+}
+.right-support {
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-support img {
+  width: 190px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.right-support > :nth-child(3) {
+  width: 170px;
+  height: 250px;
+}
+.right-support > :nth-child(2) {
+  width: 170px;
+  height: 250px;
+}
+.img2 {
+  position: absolute;
+  bottom: -10px;
+  right: 50px;
+  z-index: -1;
+}
+.img1 {
+  position: absolute;
+  bottom: -50px;
+  left: 60px;
+}

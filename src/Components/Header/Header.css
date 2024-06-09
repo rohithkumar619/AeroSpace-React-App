@@ -1,0 +1,119 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid black;
+  box-shadow: 1px 1px 5px black;
+  background-color: rgb(230, 230, 230);
+}
+
+.t-Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.t-Header span {
+  cursor: pointer;
+}
+.t-Header > :nth-child(1) {
+  width: 30%;
+}
+.global-s {
+  display: flex;
+  width: 50%;
+  gap: 50px;
+}
+.signin,
+.signup {
+  text-decoration: none;
+  color: black;
+}
+.t-Header > :nth-child(3) {
+  display: flex;
+  gap: 25px;
+}
+.t-Header > :nth-child(3) span {
+  font-size: 13px;
+}
+.global-s > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.t-Header img {
+  width: 15px;
+}
+.b-Header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.l-h {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.l-h img {
+  width: 40px;
+}
+.l-h span {
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.aerospace {
+  text-decoration: none;
+  color: black;
+}
+.m-h {
+  width: 40%;
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  cursor: pointer;
+}
+.r-h {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.r-h button {
+  background-color: rgb(45, 153, 225);
+  color: white;
+  border: 0;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user-info img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.user-info button {
+  color: black;
+  border: 1px solid black;
+  font-style: italic;
+  width: 60px;
+  height: 20px;
+  font-size: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}

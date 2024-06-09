@@ -1,0 +1,26 @@
+.seat-selection2 {
+  margin-top: 100px;
+  margin-left: 400px;
+  display: flex;
+}
+.seat-selection2 > :nth-child(2) {
+  display: flex;
+  height: 400px;
+  margin-left: 30px;
+  overflow-y: scroll;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px black;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00bfff;
+  border-radius: 5px;
+}

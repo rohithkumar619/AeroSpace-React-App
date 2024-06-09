@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.Hero {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+.top-h {
+  font-weight: 600;
+  width: 400px;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+.bottom-h {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.back {
+  width: 700px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 150px;
+}
+.plane {
+  position: absolute;
+  width: 700px;
+  height: auto;
+  top: -50px;
+  right: -50px;
+}

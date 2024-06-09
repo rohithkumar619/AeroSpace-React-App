@@ -1,0 +1,57 @@
+.Top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.top-tra span {
+  font-weight: 600;
+  font-size: 25px;
+}
+.bottom-tra {
+  margin-top: 30px;
+  display: flex;
+  gap: 50px;
+}
+.bottom-tra img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.tra-img {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 300px;
+  border-radius: 150px;
+  z-index: 5;
+}
+.tra-show img {
+  width: 35px;
+  height: 35px;
+}
+.tra-show {
+  margin-bottom: -100px;
+  width: 200px;
+  height: 70px;
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+  border-radius: 30px;
+  transition: 0.5s;
+  padding-bottom: 20px;
+}
+.tra-show > :nth-child(3) {
+  font-size: 12px;
+  font-style: italic;
+}
+.tra-img:hover .tra-show {
+  margin-bottom: -8px;
+}

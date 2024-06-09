@@ -1,0 +1,410 @@
+.payment {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  gap: 20px;
+}
+.payment > :nth-child(1) {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.payment > :nth-child(1) > :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px black;
+  padding: 15px;
+  border-radius: 30px;
+  gap: 10px;
+}
+.payment > :nth-child(1) > :nth-child(1) h3 {
+  margin: 0;
+}
+.payment > :nth-child(1) > :nth-child(1) > div {
+  display: flex;
+  justify-content: space-between;
+}
+.payment > :nth-child(1) > :nth-child(1) > :last-child {
+  background-color: rgb(214, 240, 174);
+  display: flex;
+  padding: 5px;
+  color: green;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.flight-info-show {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px black;
+  padding: 10px;
+  border-radius: 20px;
+}
+.flight-info-show > :nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flight-info-show > :nth-child(2) {
+  font-size: 14px;
+  margin: 0;
+  background-color: rgb(252, 216, 170);
+  width: 75px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+}
+.flight-info-show > :nth-child(3) {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1.5px solid rgb(220, 214, 214);
+}
+.flight-info-show > :nth-child(3) > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.flight-info-show > :nth-child(3) > div > :nth-child(1) {
+  font-weight: 600;
+}
+.flight-info-show > :nth-child(3) img {
+  width: 60px;
+}
+.flight-info-show > :nth-child(3) h3 {
+  font-size: 12px;
+}
+.flight-info-show > :nth-child(4) {
+  margin: 10px;
+  margin-left: 0px;
+}
+.right-p {
+  width: 70%;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  gap: 30px;
+}
+.right-p1 {
+  width: 30%;
+  display: flex;
+  margin-left: 15px;
+  margin-top: 15px;
+  flex-direction: column;
+  gap: 20px;
+}
+.right-p1 > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  box-shadow: 1px 1px 5px blue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.right-p1 > div > div {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+}
+.right-p1 > div > div > :nth-child(1) {
+  font-weight: 600;
+}
+.right-p1 > div > div > :nth-child(2) {
+  font-size: 13px;
+}
+.right-p1 > div > img {
+  width: 30px;
+  height: 30px;
+}
+.right-p2 {
+  margin-top: 15px;
+  width: 60%;
+  height: 100%;
+}
+.recommended,
+.upi {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.recommended > :nth-child(1),
+.upi > :nth-child(1) {
+  display: flex;
+}
+.recommended > div > div,
+.upi > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.recommended > div > div h4,
+.upi > div > div h4 {
+  margin: 0;
+  margin-top: 10px;
+}
+.recommended > div span,
+.upi > div span {
+  width: 220px;
+}
+.digital {
+  display: flex;
+  gap: 15px;
+}
+.recommended div img,
+.upi div img {
+  width: 25px;
+}
+.cashback {
+  background-color: rgb(214, 240, 174);
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  color: green;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.cashback img {
+  width: 25px;
+}
+.cashback span {
+  text-wrap: nowrap;
+}
+.qr > :nth-child(1) {
+  width: 100px;
+  height: 120px;
+  margin-left: -120px;
+}
+.UPI {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.UPI > :nth-child(2) {
+  display: flex;
+}
+.UPI input {
+  width: 320px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.UPI button {
+  background-color: rgb(45, 153, 225);
+  color: white;
+  border: 0;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.credit-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.credit-card > :nth-child(2) {
+  width: 320px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.credit-card > :nth-child(3) {
+  display: flex;
+  gap: 10px;
+}
+.credit-card > :nth-child(3) > :nth-child(1) {
+  width: 220px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.credit-card > :nth-child(3) > :nth-child(2) {
+  width: 90px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.cashback2 {
+  background-color: rgb(214, 240, 174);
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+  color: green;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.cashback2 img {
+  width: 25px;
+}
+.cashback2 span {
+  text-wrap: nowrap;
+}
+.credit-card > :last-child {
+  background-color: rgb(45, 153, 225);
+  color: white;
+  border: 0;
+  width: 350px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.paylater {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  border: 1px solid black;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  color: rgb(45, 153, 225);
+  box-shadow: 1px 1px 5px black;
+}
+.paylater button {
+  background-color: rgb(45, 153, 225);
+  color: white;
+  border: 0;
+  width: 200px;
+  height: 30px;
+  font-size: 11px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.EMI {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+.EMI > :nth-child(2) {
+  display: flex;
+  gap: 100px;
+}
+.EMI > :nth-child(2) button {
+  background-color: transparent;
+  box-shadow: 1px 1px 5px black;
+  color: black;
+  border: 0;
+  border: 1px solid black;
+  width: 180px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.creditcard > div {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px solid black;
+}
+.creditcard > div img {
+  width: 40px;
+}
+.creditcard > div > div {
+  display: flex;
+  flex-direction: column;
+}
+.wallets {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.wallets > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+.wallets > div > div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+.wall {
+  background-color: rgb(45, 153, 225);
+  color: white;
+  border: 0;
+  width: 200px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.wallets > div img {
+  width: 50px;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+}
+.error {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.error p {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.error button {
+  background-color: rgb(45, 153, 225);
+  color: white;
+  border: 0;
+  width: 120px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
